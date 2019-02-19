@@ -53,11 +53,7 @@
 }
 
 - (NSInteger)collectionView:(UICollectionView *)collectionView numberOfItemsInSection:(NSInteger)section {
-    if (((self.emojiArr.count / self.showPageNum) + (self.emojiArr.count % self.showPageNum == 0 ? 0 : 1)) != section + 1) {
-        return self.showPageNum;
-    }else {
-        return self.emojiArr.count - self.showPageNum * section;
-    }
+    return self.showPageNum;
 }
 
 - (CGFloat)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout minimumLineSpacingForSectionAtIndex:(NSInteger)section {
@@ -95,13 +91,20 @@
     [cell.contentView.subviews makeObjectsPerformSelector:@selector(removeFromSuperview)];
     
     UILabel *emojiLabel = [[UILabel alloc]initWithFrame:CGRectMake(0, 0, self.emojiSize, self.emojiSize)];
-    emojiLabel.text = self.emojiArr[indexPath.section * self.showPageNum + indexPath.row];
+    if (self.showPageNum * indexPath.section + indexPath.item < self.emojiArr.count) {
+        emojiLabel.text = self.emojiArr[indexPath.section * self.showPageNum + indexPath.row];
+    }else {
+        emojiLabel.text = @"";
+    }
     emojiLabel.font = [UIFont systemFontOfSize:25];
     [cell.contentView addSubview:emojiLabel];
 }
 
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
-    NSString *emojiStr = self.emojiArr[indexPath.section * self.showPageNum + indexPath.row];
+    NSString *emojiStr = @"";
+    if (self.showPageNum * indexPath.section + indexPath.item < self.emojiArr.count) {
+        emojiStr = self.emojiArr[indexPath.section * self.showPageNum + indexPath.row];
+    }
     //NSLog(@"表情 %@", emojiStr);
     if (self.inserTV) {
         self.inserTV.text = [self.inserTV.text stringByAppendingString:emojiStr];
