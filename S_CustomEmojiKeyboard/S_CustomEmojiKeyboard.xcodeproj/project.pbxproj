@@ -1,0 +1,348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18D29E94221BCDCF00AAD44E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D29E93221BCDCF00AAD44E /* AppDelegate.m */; };
+		18D29E97221BCDCF00AAD44E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D29E96221BCDCF00AAD44E /* ViewController.m */; };
+		18D29E9A221BCDCF00AAD44E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D29E98221BCDCF00AAD44E /* Main.storyboard */; };
+		18D29E9C221BCDD300AAD44E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18D29E9B221BCDD300AAD44E /* Assets.xcassets */; };
+		18D29E9F221BCDD300AAD44E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D29E9D221BCDD300AAD44E /* LaunchScreen.storyboard */; };
+		18D29EA2221BCDD300AAD44E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D29EA1221BCDD300AAD44E /* main.m */; };
+		18D29EAA221BCDE500AAD44E /* S_CustomEmojiKeyBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D29EA8221BCDE500AAD44E /* S_CustomEmojiKeyBoard.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		18D29E8F221BCDCF00AAD44E /* S_CustomEmojiKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = S_CustomEmojiKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18D29E92221BCDCF00AAD44E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18D29E93221BCDCF00AAD44E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18D29E95221BCDCF00AAD44E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		18D29E96221BCDCF00AAD44E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		18D29E99221BCDCF00AAD44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18D29E9B221BCDD300AAD44E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		18D29E9E221BCDD300AAD44E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		18D29EA0221BCDD300AAD44E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D29EA1221BCDD300AAD44E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18D29EA8221BCDE500AAD44E /* S_CustomEmojiKeyBoard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = S_CustomEmojiKeyBoard.m; sourceTree = "<group>"; };
+		18D29EA9221BCDE500AAD44E /* S_CustomEmojiKeyBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = S_CustomEmojiKeyBoard.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18D29E8C221BCDCF00AAD44E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18D29E86221BCDCF00AAD44E = {
+			isa = PBXGroup;
+			children = (
+				18D29E91221BCDCF00AAD44E /* S_CustomEmojiKeyboard */,
+				18D29E90221BCDCF00AAD44E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18D29E90221BCDCF00AAD44E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18D29E8F221BCDCF00AAD44E /* S_CustomEmojiKeyboard.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18D29E91221BCDCF00AAD44E /* S_CustomEmojiKeyboard */ = {
+			isa = PBXGroup;
+			children = (
+				18D29E92221BCDCF00AAD44E /* AppDelegate.h */,
+				18D29E93221BCDCF00AAD44E /* AppDelegate.m */,
+				18D29E95221BCDCF00AAD44E /* ViewController.h */,
+				18D29E96221BCDCF00AAD44E /* ViewController.m */,
+				18D29EA9221BCDE500AAD44E /* S_CustomEmojiKeyBoard.h */,
+				18D29EA8221BCDE500AAD44E /* S_CustomEmojiKeyBoard.m */,
+				18D29E98221BCDCF00AAD44E /* Main.storyboard */,
+				18D29E9B221BCDD300AAD44E /* Assets.xcassets */,
+				18D29E9D221BCDD300AAD44E /* LaunchScreen.storyboard */,
+				18D29EA0221BCDD300AAD44E /* Info.plist */,
+				18D29EA1221BCDD300AAD44E /* main.m */,
+			);
+			path = S_CustomEmojiKeyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18D29E8E221BCDCF00AAD44E /* S_CustomEmojiKeyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18D29EA5221BCDD300AAD44E /* Build configuration list for PBXNativeTarget "S_CustomEmojiKeyboard" */;
+			buildPhases = (
+				18D29E8B221BCDCF00AAD44E /* Sources */,
+				18D29E8C221BCDCF00AAD44E /* Frameworks */,
+				18D29E8D221BCDCF00AAD44E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = S_CustomEmojiKeyboard;
+			productName = S_CustomEmojiKeyboard;
+			productReference = 18D29E8F221BCDCF00AAD44E /* S_CustomEmojiKeyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18D29E87221BCDCF00AAD44E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = dufei;
+				TargetAttributes = {
+					18D29E8E221BCDCF00AAD44E = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 18D29E8A221BCDCF00AAD44E /* Build configuration list for PBXProject "S_CustomEmojiKeyboard" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18D29E86221BCDCF00AAD44E;
+			productRefGroup = 18D29E90221BCDCF00AAD44E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18D29E8E221BCDCF00AAD44E /* S_CustomEmojiKeyboard */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18D29E8D221BCDCF00AAD44E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D29E9F221BCDD300AAD44E /* LaunchScreen.storyboard in Resources */,
+				18D29E9C221BCDD300AAD44E /* Assets.xcassets in Resources */,
+				18D29E9A221BCDCF00AAD44E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18D29E8B221BCDCF00AAD44E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18D29EAA221BCDE500AAD44E /* S_CustomEmojiKeyBoard.m in Sources */,
+				18D29E97221BCDCF00AAD44E /* ViewController.m in Sources */,
+				18D29EA2221BCDD300AAD44E /* main.m in Sources */,
+				18D29E94221BCDCF00AAD44E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		18D29E98221BCDCF00AAD44E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D29E99221BCDCF00AAD44E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		18D29E9D221BCDD300AAD44E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18D29E9E221BCDD300AAD44E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18D29EA3221BCDD300AAD44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18D29EA4221BCDD300AAD44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18D29EA6221BCDD300AAD44E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8VEN56WZ4;
+				INFOPLIST_FILE = S_CustomEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CustomTime.S-CustomEmojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		18D29EA7221BCDD300AAD44E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Y8VEN56WZ4;
+				INFOPLIST_FILE = S_CustomEmojiKeyboard/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "CustomTime.S-CustomEmojiKeyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18D29E8A221BCDCF00AAD44E /* Build configuration list for PBXProject "S_CustomEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D29EA3221BCDD300AAD44E /* Debug */,
+				18D29EA4221BCDD300AAD44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18D29EA5221BCDD300AAD44E /* Build configuration list for PBXNativeTarget "S_CustomEmojiKeyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18D29EA6221BCDD300AAD44E /* Debug */,
+				18D29EA7221BCDD300AAD44E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18D29E87221BCDCF00AAD44E /* Project object */;
+}
